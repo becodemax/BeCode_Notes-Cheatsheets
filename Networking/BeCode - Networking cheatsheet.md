@@ -41,7 +41,7 @@
 	- Add legal notice
 
 
-Setting up password
+**Setting up password
 
 - Commands :
 ``` 
@@ -60,7 +60,7 @@ banner word #<message#
 (to setup a message that will displays at each connection)
 
 
-Configuration files
+**Configuration files
 
 - startup-config file
 	- configuration is retained in RAM despite system shutdown
@@ -72,7 +72,7 @@ reload
 erase startup-config
 ```
 
-Setting up the interface's IP Address
+**Setting up the interface's IP Address
 
 ```
 interface vlan1
@@ -144,3 +144,41 @@ no shutdown
 	- PPP : Piont to Point Protocol (allows packets to be encapsulated)
 	- Ethernet (cabling in signaling rules)
 	- Interface Drivers (allows host to communicate with its network interface)
+
+# Communication standards
+
+- OSI (7 layers)
+	- 7. Application
+	- 6. Presentation
+	- 5. Session
+	- 4. Transport
+	- 3. Network
+	- 2. Link
+	- 1. Physical
+
+- TCP/IP (4 layers)
+	- 4. Application
+	- 3. Transport
+	- 2. Internet
+	- 1. Network
+
+**Data Transfer
+
+- Segmentation (dividing data in several frames)
+- Multiplexing (mixing packets)
+- Frame transformation (encapsulation)
+	- Dividing data into segments
+	- Encapsulating those segments following protocols
+	- Creating packets
+	- Sending packets
+- Decapsulation
+	- Receiving packets
+	- Decapsulating data (opposite direction of encapsulation)
+
+**Network addresses
+
+- MAC (data link layer)
+	- Physical address, network card, can't be used outside a local network
+- IP (network layer)
+	- Origin/Destination address, has a network part and host part
+
