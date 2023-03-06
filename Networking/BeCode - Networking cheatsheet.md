@@ -39,23 +39,26 @@
 	- Set passwords for priviliged user, user and remote access
 	- Encrypt those passwords
 	- Add legal notice
-	
+
+
 Setting up password
 
 - Commands :
 ``` 
 enable secret
 ```
-	- (global configuration mode, privileged user)
+(global configuration mode, privileged user)
 ``` 
 password (online configuration mode, user)
 ```
-	- (online configuration mode, user)
-	- for ssh, enter the vty configuration mode and use the same commands above
+(online configuration mode, user)
+
+- for ssh, enter the vty configuration mode and use the same commands above
 ``` 
 banner word #<message#
 ```
-	- to setup a message that will displays at each connection
+(to setup a message that will displays at each connection)
+
 
 Configuration files
 
@@ -76,4 +79,40 @@ interface vlan1
 ip address 192.168.0.12 255.255.255.0
 no shutdown
 ```
-	- Select vlan1, set ip add and mask, reboot.
+(select vlan1, set ip add and mask, reboot)
+
+
+# Protocol and network config
+
+- Structure of elements between 2 computers (5 layers)
+	- Emitter (machine)
+	- Transmitter (interface)
+	- Transmission (copper, air, fiber)
+	- Receiver (interface)
+	- Receiver (machine)
+
+- Protocol = shared language between machines
+
+- Coding : transforming the data to something the protocol can interpret and vice versa
+	- ex : phone mic (vibration) transforming to signal / signal transforming to sound in the earing of the phone
+
+- Encapsulation
+	- Adding informations to the raw message as :
+		- Destination
+		- Protocol info
+		- ...
+
+- A message can be framed in order to respect the protocol max size of packets.
+
+- Sync and frame management protocol (avoid collisions between packets)
+	- -> Defines who talks and what to do if errors
+	
+	- Flow control system : give chance to each host to send data
+	- Waiting time : when exceeded, will allow host to send error message (no responses given)
+
+- Sending Methods
+	- Unicast : to one host
+	- Multicast : to multiple hosts
+	- Broadcast : to all hosts
+
+- 
