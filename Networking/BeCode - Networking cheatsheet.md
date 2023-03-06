@@ -162,7 +162,7 @@ no shutdown
 	- 2. Internet
 	- 1. Network
 
-**Data Transfer
+##### Data Transfer
 
 - Segmentation (dividing data in several frames)
 - Multiplexing (mixing packets)
@@ -175,7 +175,7 @@ no shutdown
 	- Receiving packets
 	- Decapsulating data (opposite direction of encapsulation)
 
-**Network addresses
+**Network addresses**
 
 - MAC (data link layer)
 	- Physical address, network card, can't be used outside a local network
