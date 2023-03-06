@@ -41,7 +41,7 @@
 	- Add legal notice
 
 
-**Setting up password
+**Setting up password**
 
 - Commands :
 ``` 
@@ -60,7 +60,7 @@ banner word #<message#
 (to setup a message that will displays at each connection)
 
 
-**Configuration files
+**Configuration files**
 
 - startup-config file
 	- configuration is retained in RAM despite system shutdown
@@ -72,7 +72,7 @@ reload
 erase startup-config
 ```
 
-**Setting up the interface's IP Address
+**Setting up the interface's IP Address**
 
 ```
 interface vlan1
@@ -162,7 +162,7 @@ no shutdown
 	- 2. Internet
 	- 1. Network
 
-##### Data Transfer
+**Data Transfer**
 
 - Segmentation (dividing data in several frames)
 - Multiplexing (mixing packets)
@@ -181,4 +181,6 @@ no shutdown
 	- Physical address, network card, can't be used outside a local network
 - IP (network layer)
 	- Origin/Destination address, has a network part and host part
+
+
 
