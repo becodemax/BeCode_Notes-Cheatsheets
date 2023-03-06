@@ -115,4 +115,32 @@ no shutdown
 	- Multicast : to multiple hosts
 	- Broadcast : to all hosts
 
-- 
+- Network Protocols
+	- open : standard and can be used by everyone
+	- proprietary : belong to a company for instance
+
+- Application protocols
+	- DNS : Domain Name System
+	- BOOTP : allows a machine to know its ip on the network
+	- DHCP
+	- SMTP : Simple Mail Transfer Protocol
+	- POP : Post Office Protocol (retrieve emails from mail server to host machine)
+	- IMAP : same as above, but remote
+	- FTP : File Transfer Protocol
+	- TFTP : same as FTP, without acknowledgement
+	- HTTP : HyperText Transfer Protocol (transfer data as media, text, graph over the web)
+	- UDP : User Datagram Protocol (packets transfer without acknowledgement)
+	- TCP : Transmission Control Protocol (more reliable)
+
+- Internet protocols
+	- IP : internet protocol (groups messages into packets and indicate destination address)
+	- NAT : convert local address into global address (world network)
+	- ICMP : Internet Control Message Protocol (for errors)
+	- OSPF : Open Shortest Path First (route packets to the right direction)
+	- EIGRP : Enhanced Interior Gateway Routing Protocol (cisco proprietary, protocol that gives an appropriate metric according to the bandwidth)
+
+- Network access protocols
+	- ARP : address resolution protocol (provides mapping between MAC and IP add)
+	- PPP : Piont to Point Protocol (allows packets to be encapsulated)
+	- Ethernet (cabling in signaling rules)
+	- Interface Drivers (allows host to communicate with its network interface)
