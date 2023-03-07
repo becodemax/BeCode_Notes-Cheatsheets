@@ -55,7 +55,7 @@ password (online configuration mode, user)
 
 - for ssh, enter the vty configuration mode and use the same commands above
 ``` 
-banner word #<message#
+banner word #<message>#
 ```
 (to setup a message that will displays at each connection)
 
@@ -148,19 +148,19 @@ no shutdown
 # Communication standards
 
 - OSI (7 layers)
-	- 7. Application
-	- 6. Presentation
-	- 5. Session
-	- 4. Transport
-	- 3. Network
-	- 2. Link
-	- 1. Physical
+	- 7) Application
+	- 6) Presentation
+	- 5) Session
+	- 4) Transport
+	- 3) Network
+	- 2) Link
+	- 1) Physical
 
 - TCP/IP (4 layers)
-	- 4. Application
-	- 3. Transport
-	- 2. Internet
-	- 1. Network
+	- 4) Application
+	- 3) Transport
+	- 2) Internet
+	- 1) Network
 
 **Data Transfer**
 
