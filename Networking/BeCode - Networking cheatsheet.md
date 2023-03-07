@@ -148,19 +148,19 @@ no shutdown
 # Communication standards
 
 - **OSI (7 layers)**
-7. Application
-6. Présentation
-5. Session
-4. Transport
-3. Réseau
-2. Liaison
-1. Physique
+	1. Physique
+	2. Liaison
+	3. Réseau
+	4. Transport
+	5. Session
+	6. Présentation
+	7. Application
 
 - **TCP/IP (4 layers)**
-4. Application
-3. Transport
-2. Internet
-1. Réseau
+	1. Réseau
+	2. Internet
+	3. Transport
+	4. Application
 
 **Data Transfer**
 
