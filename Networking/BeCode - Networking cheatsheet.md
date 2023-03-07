@@ -6,6 +6,7 @@
 - WLAN : Wireless Local Area Network
 - SAN : Storage Area Network
 - DHCP : Dynamic Host Configuration Protocol
+- PDU : Protocol Data Unit
 
 - Intranet : réseau interne possédé par une compagnie par exemple
 - Extranet : permet à un réseau interne de communiquer avec l'extérieur
