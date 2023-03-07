@@ -110,16 +110,16 @@ no shutdown
 	- Flow control system : give chance to each host to send data
 	- Waiting time : when exceeded, will allow host to send error message (no responses given)
 
-- Sending Methods
+- **Sending Methods**
 	- Unicast : to one host
 	- Multicast : to multiple hosts
 	- Broadcast : to all hosts
 
-- Network Protocols
+- **Network Protocols**
 	- open : standard and can be used by everyone
 	- proprietary : belong to a company for instance
 
-- Application protocols
+- **Application protocols**
 	- DNS : Domain Name System
 	- BOOTP : allows a machine to know its ip on the network
 	- DHCP
@@ -132,14 +132,14 @@ no shutdown
 	- UDP : User Datagram Protocol (packets transfer without acknowledgement)
 	- TCP : Transmission Control Protocol (more reliable)
 
-- Internet protocols
+- **Internet protocols**
 	- IP : internet protocol (groups messages into packets and indicate destination address)
 	- NAT : convert local address into global address (world network)
 	- ICMP : Internet Control Message Protocol (for errors)
 	- OSPF : Open Shortest Path First (route packets to the right direction)
 	- EIGRP : Enhanced Interior Gateway Routing Protocol (cisco proprietary, protocol that gives an appropriate metric according to the bandwidth)
 
-- Network access protocols
+- **Network access protocols**
 	- ARP : address resolution protocol (provides mapping between MAC and IP add)
 	- PPP : Piont to Point Protocol (allows packets to be encapsulated)
 	- Ethernet (cabling in signaling rules)
@@ -147,20 +147,20 @@ no shutdown
 
 # Communication standards
 
-- OSI (7 layers)
-	- 7) Application
-	- 6) Presentation
-	- 5) Session
-	- 4) Transport
-	- 3) Network
-	- 2) Link
-	- 1) Physical
+- **OSI (7 layers)**
+7. Application
+6. Présentation
+5. Session
+4. Transport
+3. Réseau
+2. Liaison
+1. Physique
 
-- TCP/IP (4 layers)
-	- 4) Application
-	- 3) Transport
-	- 2) Internet
-	- 1) Network
+- **TCP/IP (4 layers)**
+4. Application
+3. Transport
+2. Internet
+1. Réseau
 
 **Data Transfer**
 
@@ -181,10 +181,6 @@ no shutdown
 	- Physical address, network card, can't be used outside a local network
 - IP (network layer)
 	- Origin/Destination address, has a network part and host part
-
-1. Item 1
-2. Item 2
-3. Item 3
 
 
 
