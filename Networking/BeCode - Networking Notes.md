@@ -232,11 +232,11 @@ no shutdown
 
 ![Hexadecimal Table Image](https://camo.githubusercontent.com/32a4f082cd5f509732a4cb7be03000f7753f07d12cc37e03676036072dcc9302/68747470733a2f2f63727970746c6162732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30372f315f506b484c683239366c70767945794a324b50786453772e706e67)
 
-**Examples of protocols in hex** :
+**Examples of protocols frames type in hex** :
 
-- 0x800 (IPV4)
-- 0x86DD (IPV6)
-- 0x806 (ARP)
+- 0x800 (IPV4 address)
+- 0x86DD (IPV6 address)
+- 0x806 (ARP request)
 
 **MAC Adresses** :
 
@@ -274,4 +274,12 @@ no shutdown
 	- Source MAC address (origin of the request)
 	- Frame type (0x806) = ARP request
 
+**ARP spoofing attacks** :
+
+- Denial Of Services (DoS)
+	- Mutliple IP addresses attempting to connect to one MAC address at the same time, causing the device to be overwhelmed and probably crash.
+- Session Hijacking
+	- Stealing ID and passwords to gain access to private data for instance.
+- Man In The Middle (MITM)
+	- Intercepting and changing traffic data between victims.
 
