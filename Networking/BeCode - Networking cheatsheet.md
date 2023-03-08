@@ -157,7 +157,7 @@ no shutdown
 6. Présentation
 7. Application
 
-![Image](https://1.bp.blogspot.com/-sIzvnoBGNOc/Xnep1Z8C7UI/AAAAAAAAARM/alEV0at7DQcU_7aL1BV85npcJFrfFJxOgCLcBGAsYHQ/s1600/osi-model-7-layers-804x1024%2Bcopy.png)
+![OSI and protocols](https://1.bp.blogspot.com/-sIzvnoBGNOc/Xnep1Z8C7UI/AAAAAAAAARM/alEV0at7DQcU_7aL1BV85npcJFrfFJxOgCLcBGAsYHQ/s1600/osi-model-7-layers-804x1024%2Bcopy.png)
 
 - **TCP/IP (4 layers)**
 1. Réseau
@@ -165,7 +165,7 @@ no shutdown
 3. Transport
 4. Application
 
-![Image](https://camo.githubusercontent.com/be754a45a8d7053944543101ac174fe8ceed200e8332715ebbf5024e70753b7b/68747470733a2f2f6d796265636f64652d66696c65732d70726f64756374696f6e2e73332d65752d776573742d312e616d617a6f6e6177732e636f6d2f62653238396539312d303065662d343938352d393266622d6530393863313333353066632d7463702d70726f746f636f6c2d737569742e706e67)
+![TCP/IP and Protocols](https://camo.githubusercontent.com/be754a45a8d7053944543101ac174fe8ceed200e8332715ebbf5024e70753b7b/68747470733a2f2f6d796265636f64652d66696c65732d70726f64756374696f6e2e73332d65752d776573742d312e616d617a6f6e6177732e636f6d2f62653238396539312d303065662d343938352d393266622d6530393863313333353066632d7463702d70726f746f636f6c2d737569742e706e67)
 
 **Data Transfer**
 
@@ -187,7 +187,11 @@ no shutdown
 - IP (network layer)
 	- Origin/Destination address, has a network part and host part
 
+**Subnet mask charts :**
 
+![Subnet masks chart](https://2.bp.blogspot.com/_KjNkTh3VA1Y/S8rCAPONZ4I/AAAAAAAAAPo/C76ssp9fsU0/s1600/subnetting_c.png)
+
+![Subnet masks chart 2](https://www.auvik.com/wp-content/uploads/2014/07/common-subnet-masks-table-800x315.png)
 
 
 
