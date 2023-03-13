@@ -66,3 +66,8 @@
 	2. Execution of post-tests and startup program loading
 	3. Loading IOS
 	4. Locating and loading config file
+
+**Topologies** :
+
+![Network-topologies-image](https://camo.githubusercontent.com/e5435fd01700156359195fbff868981c4fb0dbb45beda8af08ab48f496221ef0/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f362f36612f4e6574746f706f632e706e67)
+
