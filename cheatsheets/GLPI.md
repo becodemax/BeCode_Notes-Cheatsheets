@@ -1,9 +1,21 @@
-```cd /tmp```
-```wget https://github.com/glpi-project/glpi/releases/download/10.0.7/glpi-10.0.7.tgz```
-```sudo mv glpi /var/www/glpi```
-```sudo chown -R www-data:www-data /var/www/glpi/```
-```sudo chmod -R 755 /var/www/glpi/```
-```sudo nano /etc/apache2/sites-available/glpi.conf```
+```
+cd /tmp
+```
+```
+wget https://github.com/glpi-project/glpi/releases/download/10.0.7/glpi-10.0.7.tgz
+```
+```
+sudo mv glpi /var/www/glpi
+```
+```
+sudo chown -R www-data:www-data /var/www/glpi/
+```
+```
+sudo chmod -R 755 /var/www/glpi/
+```
+```
+sudo nano /etc/apache2/sites-available/glpi.conf
+```
 ```
 <VirtualHost *:80>
      ServerAdmin admin@example.com
