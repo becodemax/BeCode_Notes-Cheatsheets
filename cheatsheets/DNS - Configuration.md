@@ -14,14 +14,14 @@ nano /etc/hostname
 nano /etc/resolv.conf
 
 	nameserver 192.168.100.143
-	search maxsoup.local
+	search ubuntu-server.local
 
 cd /etc/bind
 
 nano named.conf.local
 
 ```
-zone "maxsoup.local" {
+zone "ubuntu-server.local" {
     type master;
     file "/etc/bind/direct";
 };
@@ -40,17 +40,19 @@ nano direct
 ;
 ; BIND data file for local loopback interface
 ;
-$TTL    604800
-@       IN      SOA     server1.maxsoup.local. root.server1.maxsoup.local. (
-                              2         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
+$TTL	604800
+@	IN	SOA	server1.ubuntu-server.local. root.server1.ubuntu-server.local. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
 ;
-@       IN      NS      server1.maxsoup.local.
-server1 IN      A       192.168.100.143
-www     IN      CNAME   server1.maxsoup.local.
+@	IN	NS	ubuntu-server.local.
+@	IN	A	192.168.100.10
+server1	IN	A	192.168.100.10
+www	IN	CNAME	ubuntu-server.local.
+
 ```
 
 cp direct reverse
@@ -60,16 +62,17 @@ cp direct reverse
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	server1.maxsoup.local. root.server1.maxsoup.local. (
+@	IN	SOA	server1.ubuntu-server.local. root.server1.ubuntu-server.local. (
 			      2		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	server1.maxsoup.local.
-server1	IN	A	192.168.100.143
-1	IN	PTR	server1
+@	IN	NS	server1.ubuntu-server.local.
+server1	IN	A	192.168.100.10
+10	IN	PTR	server1
+
 ```
 
 named-checkconf -z
