@@ -77,3 +77,8 @@ password longer than 6 chars pattern :
 ```
 password_pattern = r'.{6,}'
 ```
+
+must contains at least one of the following chars :
+```
+(?=.+[@#$])
+```
