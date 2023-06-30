@@ -293,3 +293,8 @@ alter table movies
 ```
 DROP TABLE IF EXISTS table;
 ```
+
+- Remove all records :
+```
+truncate tableName
+```

@@ -24,3 +24,15 @@ insert into creds
 (username, password)
 values ("test", "test");
 ```
+
+```
+create table 6digits (
+    id int not null auto_increment,
+    number int not null,
+    primary key (id)
+);
+
+insert into 6digits
+(id, number)
+values ("1", "1");
+```

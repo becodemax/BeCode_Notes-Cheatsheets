@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cheatsheets/SQL/Flask + SQL.md",
+                "file": "cheatsheets/SQL/SQL - Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cheatsheets/SQL/Flask + SQL.md",
+                "file": "cheatsheets/SQL/SQL - Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cheatsheets/SQL/Flask + SQL.md",
+                "file": "cheatsheets/SQL/SQL - Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cheatsheets/SQL/Flask + SQL.md"
+                "file": "cheatsheets/SQL/SQL - Databases.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "d715f0fb6de3fa24",
   "lastOpenFiles": [
-    "cheatsheets/Tor and VPNs.md",
     "cheatsheets/SQL/Flask + SQL.md",
+    "cheatsheets/Tor and VPNs.md",
     "cheatsheets/SQL/BeCode Drill - Answers.md",
     "cheatsheets/SQL/SQL - Databases.md",
     "cheatsheets/SQL",
