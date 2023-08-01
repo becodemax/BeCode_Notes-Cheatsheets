@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c5612e512598420",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC-900.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cheatsheets/BlackCat & RaaS.md",
+                "file": "SC-900.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cheatsheets/BlackCat & RaaS.md",
+                "file": "SC-900.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cheatsheets/BlackCat & RaaS.md"
+                "file": "SC-900.md"
               }
             }
           }
@@ -146,15 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5d8840daaf95706",
+  "active": "6c5612e512598420",
   "lastOpenFiles": [
+    "cheatsheets/BlackCat & RaaS.md",
+    "SC-900.md",
     "cheatsheets/SQLi.md",
     "cheatsheets/SQL/BeCode Drill - Answers.md",
     "BeCode.wiki/Installer-LAMP-sur-Ubuntu.md",
     "BeCode.wiki/Chercher-et-trouver-sur-Google-🥇.md",
     "BeCode.wiki/Git-&-Github.md",
     "BeCode.wiki/Commandes-du-Terminal.md",
-    "cheatsheets/BlackCat & RaaS.md",
     "cheatsheets/SQL/SQL - Databases.md",
     "cheatsheets/SQL/Flask + SQL.md",
     "cheatsheets/Tor and VPNs.md",
