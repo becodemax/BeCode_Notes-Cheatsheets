@@ -1,4 +1,4 @@
-# Notes and cheatsheets for BeCode - Cybersecurity 🖥️🔒
+# Notes and cheatsheets for BeCode - Cybersecurity 🖥️
 
 Those are all my notes about networking, programming, cybersecurity and computer stuff in general.
 
