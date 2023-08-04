@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5d8840daaf95706",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cheatsheets/BlackCat & RaaS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6c5612e512598420",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1eb3581db46fb9ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,9 +148,9 @@
   },
   "active": "6c5612e512598420",
   "lastOpenFiles": [
-    "Azure Machine Learning.md",
     "cheatsheets/BlackCat & RaaS.md",
     "SC-900.md",
+    "Azure Machine Learning.md",
     "cheatsheets/SQLi.md",
     "cheatsheets/SQL/BeCode Drill - Answers.md",
     "BeCode.wiki/Installer-LAMP-sur-Ubuntu.md",
