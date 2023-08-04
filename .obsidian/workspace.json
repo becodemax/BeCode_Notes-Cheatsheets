@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "79c6d4b8d0738232",
+        "id": "757a9f818256b8c1",
         "type": "tabs",
         "children": [
           {
-            "id": "6c5612e512598420",
+            "id": "7b7d43d14b68673c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SC-900/SC-900_Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f62b288537480a83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC-900/SC-900_StudyGuide.md",
+                "file": "Azure/SC-900/SC-900_Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SC-900/SC-900_StudyGuide.md",
+                "file": "Azure/SC-900/SC-900_Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SC-900/SC-900_StudyGuide.md",
+                "file": "Azure/SC-900/SC-900_Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SC-900/SC-900_StudyGuide.md"
+                "file": "Azure/SC-900/SC-900_Notes.md"
               }
             }
           }
@@ -159,24 +146,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "408c0b65d60750a0",
+  "active": "7b7d43d14b68673c",
   "lastOpenFiles": [
-    "SC-900/SC-900_Notes.md",
-    "SC-900/SC-900_StudyGuide.md",
-    "SC-900",
-    "cheatsheets/BlackCat & RaaS.md",
-    "Azure Machine Learning.md",
-    "cheatsheets/SQLi.md",
-    "cheatsheets/SQL/BeCode Drill - Answers.md",
+    "Azure/SC-900/SC-900_StudyGuide.md",
+    "Azure/SC-900/SC-900_Notes.md",
+    "Azure/Azure Machine Learning.md",
+    "Databases/Flask + SQL.md",
+    "Databases/BeCode Drill - Answers.md",
+    "_Misc/Vi-Vim Commands.md",
+    "_Misc/Virt-Manager Install (linux).md",
+    "_Misc/UnderTheWire.md",
+    "_Misc",
+    "Web-server",
+    "Web-server/GLPI - Configuration.md",
+    "Databases/MariaDB - Configuration.md",
+    "Pentesting",
+    "Veilles Technologiques",
+    "Programming",
+    "Databases/SQL - Databases.md",
+    "SQL/SQLi.md",
+    "Web-server/PHP - Apache2.md",
+    "Veilles Technologiques/DPUs and Data Processing.md",
+    "Pentesting/Jinja_Flask - Reverse Shell BeCode.md",
+    "Networking/Cisco config commands.md",
+    "Networking/DHCP - Configuration.md",
+    "Veilles Technologiques/BlackCat & RaaS.md",
+    "Azure/SC-900",
+    "Analyste CSIRT.md",
+    "Azure",
     "BeCode.wiki/Installer-LAMP-sur-Ubuntu.md",
     "BeCode.wiki/Chercher-et-trouver-sur-Google-🥇.md",
     "BeCode.wiki/Git-&-Github.md",
     "BeCode.wiki/Commandes-du-Terminal.md",
-    "cheatsheets/SQL/SQL - Databases.md",
-    "cheatsheets/SQL/Flask + SQL.md",
-    "cheatsheets/Tor and VPNs.md",
-    "cheatsheets/SQL",
-    "cheatsheets/MariaDB - Configuration.md",
-    "cheatsheets/Regex.md"
+    "Veilles Technologiques/Tor and VPNs.md",
+    "Databases",
+    "Programming/Regex.md"
   ]
 }
