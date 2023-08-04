@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure/SC-900/SC-900_Notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/SC-900/SC-900_Notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure/SC-900/SC-900_Notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure/SC-900/SC-900_Notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "7b7d43d14b68673c",
   "lastOpenFiles": [
-    "Azure/SC-900/SC-900_StudyGuide.md",
     "Azure/SC-900/SC-900_Notes.md",
+    "Azure/SC-900/SC-900_StudyGuide.md",
     "Azure/Azure Machine Learning.md",
     "Databases/Flask + SQL.md",
     "Databases/BeCode Drill - Answers.md",
